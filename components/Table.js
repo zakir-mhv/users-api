@@ -69,7 +69,7 @@ export const Table = {
   },
   methods: {
     // When single-clicked on the table rows, get single user detail
-    // ClearTimeout and SetTimeout is used to avoid double-click event to call also single-click event on the same element
+    // clearTimeout and setTimeout is used to avoid double-click event to call also single-click event on the same element
     getUserInfo(id) {
       clearTimeout(this.time)
       this.time = setTimeout(() => {
@@ -79,6 +79,7 @@ export const Table = {
           .catch(error => console.log(error))
       }, 300)
     },
+    
     // When double-clicked on the table rows, get single user detail for Modal and open it
     modalOpen(id) {
       clearTimeout(this.time)
