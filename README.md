@@ -12,8 +12,8 @@ Users API is a website that fetches users' data from third-party API [JSONPlaceh
 
 ## Technologies used
 
+- **Vue**
 - **Bootstrap**
-- **Vue.js**
 - **REST API**
 
 ## Usage
